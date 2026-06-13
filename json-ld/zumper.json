@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Zumper",
+  "url": "https://www.zumper.com",
+  "description": "Zumper is a rental listing marketplace that connects renters with landlords and property managers across the United States and Canada. The platform provides access to apartment listings, property data, rental price insights, and tenant application management.",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/company/zumper",
+    "https://x.com/Zumper"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "directlistings@zumper.com",
+    "contactType": "Partner Listings"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Zumper API",
+    "description": "The Zumper API provides access to rental listings, property data, rental price insights, and tenant application management. Partners and property management software providers can use the API to syndicate listings to Zumper, retrieve rental market intelligence, access tenant screening powered by TransUnion, and manage leasing workflows.",
+    "url": "https://www.zumper.com/manage",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Listing Syndication",
+        "description": "Publish and syndicate rental listings to Zumper's marketplace and partner networks including PadMapper, ChatGPT, Microsoft Bing, and Realtor.com."
+      },
+      {
+        "@type": "Offer",
+        "name": "Rental Market Data",
+        "description": "Access rental price insights and market intelligence data via the Zumper API."
+      },
+      {
+        "@type": "Offer",
+        "name": "Tenant Screening",
+        "description": "Tenant screening powered by TransUnion integrated into the leasing workflow."
+      },
+      {
+        "@type": "Offer",
+        "name": "PowerLeads AI",
+        "description": "Lead management and AI-powered leasing workflows via Zumper's PowerLeads engine."
+      }
+    ]
+  },
+  "knowsAbout": [
+    "Real Estate",
+    "Rental Listings",
+    "Property Management",
+    "Apartments",
+    "Tenant Screening",
+    "Rental Market Data",
+    "Housing"
+  ],
+  "publishingPrinciples": "https://www.zumper.com/terms",
+  "privacyPolicy": "https://www.zumper.com/privacy-policy",
+  "subjectOf": [
+    {
+      "@type": "BlogPosting",
+      "headline": "March 2026 Zumper National Rent Report",
+      "url": "https://www.zumper.com/blog/march-2026-zumper-national-rent-report/",
+      "datePublished": "2026-05-01",
+      "author": {
+        "@type": "Person",
+        "name": "Crystal Chen"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Zumper"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Zumper Partners with Airbnb to Market Airbnb-friendly Apartments",
+      "url": "https://www.zumper.com/blog/airbnb/",
+      "datePublished": "2024-09-24",
+      "author": {
+        "@type": "Person",
+        "name": "Crystal Chen"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Zumper"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Zumper National Rent Report",
+      "url": "https://www.zumper.com/blog/rental-price-data/",
+      "datePublished": "2023-07-26",
+      "author": {
+        "@type": "Person",
+        "name": "Crystal Chen"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Zumper"
+      }
+    }
+  ]
+}
