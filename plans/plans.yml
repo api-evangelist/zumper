@@ -1,0 +1,181 @@
+plans:
+  - name: Free
+    description: >-
+      The free tier allows landlords and property managers to post rental
+      listings at no cost. Listings are distributed across Zumper's network
+      including PadMapper, ChatGPT, Microsoft Bing, and Realtor.com. Includes
+      basic portfolio dashboard, lead management, and access to tenant
+      application tools. Up to 5 free listings per month with standard
+      placement.
+    url: https://www.zumper.com/manage
+    price: 0.00
+    unit: monthly
+    pricingModel: free-tier
+    rateLimits:
+      - type: listings
+        limit: 5
+        period: monthly
+    features:
+      - Basic listing distribution
+      - Access to Zumper network syndication
+      - PadMapper, ChatGPT, Bing syndication
+      - Standard search placement
+      - Basic portfolio dashboard
+      - Lead management
+      - Tenant application access
+      - Online rent payment collection
+      - Digital leasing tools
+
+  - name: Premium Starter
+    description: >-
+      Entry-level premium plan providing enhanced listing visibility and
+      promoted search rankings for up to 5 listings. Includes 10x more exposure
+      than standard listings, verification badges, automatic posting to partner
+      sites, and performance reports.
+    url: https://www.zumper.com/manage
+    price: 10.00
+    unit: monthly
+    pricingModel: subscription
+    rateLimits:
+      - type: listings
+        limit: 5
+        period: monthly
+    features:
+      - 10x more exposure than standard listings
+      - Promoted search rankings
+      - Verification badges
+      - Automatic posting to partner sites
+      - Performance reports
+      - Priority placement in search results
+
+  - name: Premium 10
+    description: >-
+      Premium plan for growing landlords managing up to 10 listings. Provides
+      enhanced visibility, promoted placements, and access to market analytics
+      and AI-powered pricing recommendations.
+    url: https://www.zumper.com/manage
+    price: 80.00
+    unit: monthly
+    pricingModel: subscription
+    rateLimits:
+      - type: listings
+        limit: 10
+        period: monthly
+    features:
+      - 10x more exposure than standard listings
+      - Promoted search rankings
+      - Verification badges
+      - Performance reports
+      - Market analytics and rental trends
+      - AI-powered pricing recommendations
+
+  - name: Premium 25
+    description: >-
+      Premium plan for property managers handling up to 25 listings. Includes
+      all premium features plus enhanced portfolio management tools and
+      PowerLeads AI for optimized lead delivery.
+    url: https://www.zumper.com/manage
+    price: 175.00
+    unit: monthly
+    pricingModel: subscription
+    rateLimits:
+      - type: listings
+        limit: 25
+        period: monthly
+    features:
+      - 10x more exposure than standard listings
+      - Promoted search rankings
+      - Verification badges
+      - Performance reports
+      - Market analytics and rental trends
+      - AI-powered pricing recommendations
+      - PowerLeads AI lead delivery engine
+
+  - name: Premium 50
+    description: >-
+      Premium plan for mid-size property managers with up to 50 listings.
+      Full suite of premium marketing and analytics tools with enhanced
+      support and dedicated listing performance tracking.
+    url: https://www.zumper.com/manage
+    price: 300.00
+    unit: monthly
+    pricingModel: subscription
+    rateLimits:
+      - type: listings
+        limit: 50
+        period: monthly
+    features:
+      - 10x more exposure than standard listings
+      - Promoted search rankings
+      - Verification badges
+      - Performance reports
+      - Market analytics
+      - PowerLeads AI
+      - Dedicated performance tracking
+
+  - name: Premium 100
+    description: >-
+      Premium plan for larger property management companies with up to 100
+      listings. Includes all premium features plus enhanced analytics and
+      priority support.
+    url: https://www.zumper.com/manage
+    price: 500.00
+    unit: monthly
+    pricingModel: subscription
+    rateLimits:
+      - type: listings
+        limit: 100
+        period: monthly
+    features:
+      - 10x more exposure than standard listings
+      - Promoted search rankings
+      - Verification badges
+      - Performance reports
+      - Market analytics
+      - PowerLeads AI
+      - Priority support
+
+  - name: Premium 200
+    description: >-
+      Top-tier premium plan for large property management companies with up to
+      200 listings. Includes full access to all premium features, advanced
+      market analytics, PowerLeads AI, and dedicated account management.
+    url: https://www.zumper.com/manage
+    price: 800.00
+    unit: monthly
+    pricingModel: subscription
+    rateLimits:
+      - type: listings
+        limit: 200
+        period: monthly
+    features:
+      - 10x more exposure than standard listings
+      - Promoted search rankings
+      - Verification badges
+      - Performance reports
+      - Advanced market analytics
+      - PowerLeads AI
+      - Dedicated account management
+
+  - name: Multifamily Enterprise
+    description: >-
+      Enterprise plan for multifamily property managers and organizations
+      managing large portfolios. Includes custom syndication feeds, scalable
+      AI-powered insights, direct API access for listing syndication, and
+      a dedicated account team. Contact directlistings@zumper.com to discuss
+      custom pricing and integration options.
+    url: https://www.zumper.com/manage
+    price: 0.00
+    unit: monthly
+    pricingModel: custom
+    rateLimits: []
+    features:
+      - Custom listing syndication feed
+      - Direct API access
+      - Scalable AI-powered insights
+      - Dedicated account team
+      - Custom pricing and contract terms
+      - Background screening integration (TransUnion)
+      - Digital leasing workflow integration
+      - Online payment processing
+      - Custom analytics and reporting

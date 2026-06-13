@@ -1,0 +1,83 @@
+finops:
+  description: >-
+    Zumper offers a tiered pricing model for property managers and landlords
+    ranging from a free listing tier to enterprise syndication agreements.
+    The platform generates revenue through premium listing upgrades that
+    provide enhanced visibility and promoted placement. Enterprise and
+    multifamily clients are priced by custom agreement. There are no
+    publicly documented per-API-call charges; costs are structured around
+    listing count and promotional tiers. Background screening fees through
+    TransUnion are passed to applicants at the time of screening.
+  url: https://www.zumper.com/manage
+
+  models:
+    - name: Free Tier
+      type: free
+      description: >-
+        No cost for posting standard listings. Listings are distributed
+        across the Zumper network including PadMapper, ChatGPT, Microsoft
+        Bing, and Realtor.com at no charge.
+      cost: $0/month
+
+    - name: Premium Listing Upgrade
+      type: subscription
+      description: >-
+        Paid tiers provide 10x more exposure, promoted search rankings,
+        verification badges, and performance reporting. Pricing scales
+        by the number of active premium listings.
+      tiers:
+        - listings: 5
+          cost: $10/month
+        - listings: 10
+          cost: $80/month
+        - listings: 25
+          cost: $175/month
+        - listings: 50
+          cost: $300/month
+        - listings: 100
+          cost: $500/month
+        - listings: 200
+          cost: $800/month
+
+    - name: Multifamily Enterprise
+      type: custom
+      description: >-
+        Custom pricing for multifamily organizations and property management
+        companies requiring large-scale listing syndication, direct API
+        feed access, and dedicated account support. Pricing is negotiated
+        per contract and may include volume discounts.
+      contact: directlistings@zumper.com
+
+  additionalCosts:
+    - name: Tenant Background Screening
+      description: >-
+        Credit and background check fees powered by TransUnion are
+        charged to rental applicants at the time of screening submission.
+        Costs are not borne by the property manager but are disclosed
+        to applicants during the application process.
+      billedTo: applicant
+
+    - name: Online Rent Payment Processing
+      description: >-
+        Zumper supports online rent payment collection. Processing fees
+        may apply depending on the payment method used. Specific fee
+        structures are not publicly disclosed and may vary.
+      billedTo: varies
+
+  costOptimization:
+    - tip: >-
+        Use the free tier for low-volume landlords with fewer than 5 listings
+        to avoid subscription costs while still benefiting from network
+        syndication.
+    - tip: >-
+        For multifamily operators, negotiate an enterprise syndication
+        agreement via directlistings@zumper.com to obtain volume pricing
+        and direct API feed access rather than paying per-listing premiums.
+    - tip: >-
+        Monitor listing performance using the dashboard analytics to
+        determine which premium slots provide the best lead conversion
+        before scaling up your plan tier.
+    - tip: >-
+        Leverage the included ChatGPT, Microsoft Bing, and PadMapper
+        syndication available on all plans before investing in additional
+        paid advertising channels.

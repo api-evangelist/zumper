@@ -1,0 +1,100 @@
+rateLimits:
+  description: >-
+    Zumper's public API rate limits are not formally documented in publicly
+    available developer documentation. Rate limits for the listing syndication
+    API are governed by partner agreements and vary based on the integration
+    type and plan. Enterprise and syndication partners should contact
+    directlistings@zumper.com to discuss specific rate limits, throttling
+    policies, and SLA terms. The following represents known constraints
+    based on available plan tiers.
+  contact: directlistings@zumper.com
+  url: https://www.zumper.com/manage
+
+  tiers:
+    - plan: Free
+      limits:
+        - type: listings
+          limit: 5
+          period: monthly
+          notes: >-
+            Free accounts may post up to 5 listings per month at no cost.
+            Additional listings require a premium plan upgrade.
+
+    - plan: Premium Starter
+      limits:
+        - type: listings
+          limit: 5
+          period: monthly
+          notes: >-
+            Premium Starter includes 5 premium-promoted listings per month.
+
+    - plan: Premium 10
+      limits:
+        - type: listings
+          limit: 10
+          period: monthly
+          notes: >-
+            Up to 10 premium-promoted listings per month.
+
+    - plan: Premium 25
+      limits:
+        - type: listings
+          limit: 25
+          period: monthly
+          notes: >-
+            Up to 25 premium-promoted listings per month.
+
+    - plan: Premium 50
+      limits:
+        - type: listings
+          limit: 50
+          period: monthly
+          notes: >-
+            Up to 50 premium-promoted listings per month.
+
+    - plan: Premium 100
+      limits:
+        - type: listings
+          limit: 100
+          period: monthly
+          notes: >-
+            Up to 100 premium-promoted listings per month.
+
+    - plan: Premium 200
+      limits:
+        - type: listings
+          limit: 200
+          period: monthly
+          notes: >-
+            Up to 200 premium-promoted listings per month.
+
+    - plan: Multifamily Enterprise
+      limits:
+        - type: listings
+          limit: custom
+          period: monthly
+          notes: >-
+            Enterprise syndication partners receive custom rate limits
+            negotiated through direct agreement. API throughput limits for
+            feed ingestion are established per contract. Contact
+            directlistings@zumper.com for details.
+
+  policies:
+    - name: Syndication Feed Throttling
+      description: >-
+        Automated listing feed syndication from property management software
+        providers is subject to ingestion rate limits that are defined in the
+        partner integration agreement. Partners using custom feeds should
+        pace submissions to avoid rejection or delays.
+
+    - name: Search API Throttling
+      description: >-
+        Search and data retrieval endpoints used by ChatGPT and other AI
+        integrations are internally rate-limited to maintain service quality.
+        These limits are not publicly disclosed and are managed server-side.
+
+    - name: Abuse Prevention
+      description: >-
+        Automated scraping or unauthorized programmatic access to Zumper's
+        platform is prohibited under the Terms of Service. Repeated excessive
+        requests may result in IP blocking or account suspension.

@@ -1,0 +1,91 @@
+aid: zumper
+name: Zumper
+description: >-
+  Zumper is a rental listing marketplace that connects renters with landlords
+  and property managers across the United States and Canada. The platform
+  provides access to apartment listings, property data, rental price insights,
+  and tenant application management. Zumper offers a REST API and syndication
+  feeds enabling property management software providers and partners to publish
+  listings, retrieve rental market data, and integrate tenant screening and
+  leasing workflows. The platform processes over 76 million site visits annually
+  and syndicates listings across PadMapper, ChatGPT, Microsoft Bing, and
+  Realtor.com.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/zumper/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Real Estate
+  - Rental Listings
+  - Property Management
+  - Apartments
+  - Tenant Screening
+  - Rental Market Data
+  - Housing
+apis:
+  - aid: zumper:zumper-api
+    name: Zumper API
+    description: >-
+      The Zumper API provides access to rental listings, property data, rental
+      price insights, and tenant application management. Partners and property
+      management software providers can use the API to syndicate listings to
+      Zumper, retrieve rental market intelligence, access tenant screening
+      powered by TransUnion, and manage leasing workflows. The API supports
+      listing publication, lead management, rental trend data, and integration
+      with Zumper's PowerLeads AI engine.
+    image: >-
+      https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.zumper.com/manage
+    baseURL: https://api.zumper.com
+    tags:
+      - Rental Listings
+      - Property Data
+      - Tenant Screening
+      - Rental Prices
+      - Lease Management
+    properties:
+      - type: Documentation
+        url: https://www.zumper.com/manage
+      - type: Portal
+        url: https://www.zumper.com/manage
+      - type: Plans
+        url: >-
+          https://raw.githubusercontent.com/api-evangelist/zumper/refs/heads/main/plans/plans.yml
+      - type: RateLimits
+        url: >-
+          https://raw.githubusercontent.com/api-evangelist/zumper/refs/heads/main/rate-limits/rate-limits.yml
+      - type: FinOps
+        url: >-
+          https://raw.githubusercontent.com/api-evangelist/zumper/refs/heads/main/finops/finops.yml
+    contact:
+      - FN: Zumper Direct Listings
+        email: directlistings@zumper.com
+common:
+  - type: Blog
+    url: https://www.zumper.com/blog/
+  - type: BlogRSS
+    url: https://www.zumper.com/blog/feed/
+  - type: Support
+    url: https://help.zumper.com/hc/en-us
+  - type: PrivacyPolicy
+    url: https://www.zumper.com/privacy-policy
+  - type: TermsOfService
+    url: https://www.zumper.com/terms
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/zumper
+  - type: X
+    url: https://x.com/Zumper
+  - type: Plans
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/zumper/refs/heads/main/plans/plans.yml
+  - type: RateLimits
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/zumper/refs/heads/main/rate-limits/rate-limits.yml
+  - type: FinOps
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/zumper/refs/heads/main/finops/finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
