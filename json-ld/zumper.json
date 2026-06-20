@@ -4,7 +4,7 @@
   "name": "Zumper",
   "url": "https://www.zumper.com",
   "description": "Zumper is a rental listing marketplace that connects renters with landlords and property managers across the United States and Canada. The platform provides access to apartment listings, property data, rental price insights, and tenant application management.",
-  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "sameAs": [
     "https://www.linkedin.com/company/zumper",
     "https://x.com/Zumper"
