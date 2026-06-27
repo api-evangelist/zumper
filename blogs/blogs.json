@@ -1,83 +1,13 @@
 {
-  "meta": {
-    "source": "https://www.zumper.com/blog/feed/",
-    "fetched": "2026-06-13",
-    "provider": "zumper"
-  },
-  "posts": [
-    {
-      "title": "March 2026 Zumper National Rent Report",
-      "url": "https://www.zumper.com/blog/march-2026-zumper-national-rent-report/",
-      "date": "2026-05-01",
-      "author": "Crystal Chen",
-      "description": "Monthly rental price analysis and trends across major US cities."
-    },
-    {
-      "title": "How to Use a Rent Calculator to Find an Apartment You Can Afford",
-      "url": "https://www.zumper.com/blog/how-to-use-a-rent-calculator-to-find-an-apartment-you-can-afford/",
-      "date": "2026-05-21",
-      "author": "Hannah Schaffer",
-      "description": "Tutorial on budgeting tools for apartment hunting."
-    },
-    {
-      "title": "The 5 Best Moving Companies in Orlando for 2026",
-      "url": "https://www.zumper.com/blog/best-moving-companies-orlando/",
-      "date": "2026-04-21",
-      "author": "Zumper",
-      "description": "Guide to top-rated moving services in Orlando."
-    },
-    {
-      "title": "The 7 Best Moving Companies in San Francisco for 2026",
-      "url": "https://www.zumper.com/blog/best-moving-companies-in-san-francisco/",
-      "date": "2026-02-19",
-      "author": "Zumper",
-      "description": "Recommendations for moving services in San Francisco."
-    },
-    {
-      "title": "Which States Offer Renter Tax Credits in 2026?",
-      "url": "https://www.zumper.com/blog/states-that-give-renters-tax-credit/",
-      "date": "2020-09-29",
-      "author": "Crystal Chen",
-      "description": "Guide to state-level tax benefits for renters."
-    },
-    {
-      "title": "Zumper Partners with Airbnb to Market Airbnb-friendly Apartments",
-      "url": "https://www.zumper.com/blog/airbnb/",
-      "date": "2024-09-24",
-      "author": "Crystal Chen",
-      "description": "Company announcement regarding partnership with Airbnb."
-    },
-    {
-      "title": "How Long Does It Take to Get Approved for an Apartment?",
-      "url": "https://www.zumper.com/blog/how-long-does-it-take-to-get-approved-for-an-apartment/",
-      "date": "2022-11-23",
-      "author": "Zumper",
-      "description": "Overview of apartment application timelines."
-    },
-    {
-      "title": "Zumper Data & Cost of Shelter CPI",
-      "url": "https://www.zumper.com/blog/zumper-consumer-price-index/",
-      "date": "2023-03-27",
-      "author": "Zumper",
-      "description": "Analysis of shelter costs and consumer price index data."
-    },
-    {
-      "title": "Zumper National Rent Report",
-      "url": "https://www.zumper.com/blog/rental-price-data/",
-      "date": "2023-07-26",
-      "author": "Crystal Chen",
-      "description": "National rental price trends across major US cities."
-    },
-    {
-      "title": "Canadian Rent Report",
-      "url": "https://www.zumper.com/blog/rental-price-data-canada/",
-      "date": "2021-07-14",
-      "author": "Crystal Chen",
-      "description": "Post about Canadian rental price data."
-    }
-  ],
   "repo": "zumper",
   "feeds": [
+    {
+      "source": "https://www.zumper.com/blog/feed/",
+      "feed_url": "https://www.zumper.com/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
     {
       "source": "https://www.zumper.com/blog/",
       "feed_url": "https://www.zumper.com/blog/feed/",
@@ -86,6 +16,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 0
 }
