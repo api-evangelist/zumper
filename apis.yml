@@ -63,6 +63,8 @@ apis:
       - FN: Zumper Direct Listings
         email: directlistings@zumper.com
 common:
+  - type: DomainSecurity
+    url: security/zumper-domain-security.yml
   - type: Blog
     url: https://www.zumper.com/blog/
   - type: BlogRSS
