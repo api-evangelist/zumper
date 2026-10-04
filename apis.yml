@@ -35,7 +35,7 @@ created: '2026-06-13'
 modified: '2026-09-16'
 specificationVersion: '0.23'
 tags:
-- Real-Estate
+- Real Estate
 - Rental Listings
 - Property Management
 - Apartments
@@ -50,6 +50,7 @@ tags_raw:
 - Tenant Screening
 - Rental Market Data
 - Housing
+- Real-Estate
 apis:
 - aid: zumper:zumper-api
   name: Zumper API
