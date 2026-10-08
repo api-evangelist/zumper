@@ -183,3 +183,67 @@ plans:
       - Digital leasing workflow integration
       - Online payment processing
       - Custom analytics and reporting
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Free
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Premium Starter
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Premium 10
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Premium 25
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Premium 50
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Premium 100
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Premium 200
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Multifamily Enterprise
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - other
+    periods: []
